@@ -40,6 +40,7 @@ h2{
     margin-right: 10px;
 }
 .fotitos{
+    padding: 75px;
     display: flex;
     justify-content:center;
 }
@@ -57,5 +58,5 @@ body{
     padding: 75px;
 }
 img{
-    height: 70px;
+    height: 120px;
 }
