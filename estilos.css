@@ -1,3 +1,4 @@
+
 h1{
     font-size: 91px;
     margin-left: 0%;
@@ -101,4 +102,123 @@ p{
     width: 50%;
     margin-left: 25%;
     padding-bottom: 30px;
+}
+h1{
+    justify-content: center;
+    display: flex;
+    font-size: 91px;
+    margin-left: 0%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 60px;
+}
+h2{
+    font-size: 60px;
+    margin-left: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 110px;
+    padding-bottom: 60px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(14, 97, 97);
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    top: 0;
+    left: 0;
+}
+.menus_link{
+    color: #ffffff;
+    text-decoration: none;
+}
+.menus_link:hover{
+    background-color: rgb(0, 148, 116);
+    transition: 0.3s;
+}
+.menus{
+    font-size: 25px;
+    margin: 15px;
+    line-height: 30px;
+}
+.fotitos-proa{
+    height: 350px;
+    margin-right: 10px;
+}
+.fotitos{
+    padding: 75px;
+    display: flex;
+    justify-content:center;
+}
+.cositas-de-la-barra{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    margin: 0%;
+    padding: 75px;
+}
+img{
+    height: 120px;
+}
+.img_redes{
+    height: 300px;
+}
+h3{
+    float: right;
+}
+p{
+    float: right;
+}
+
+.redes{
+    display: flex;
+}
+.redes-links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.redes-links li a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.redes img {
+    padding: 50px;
+}
+h1.redes{
+   justify-content: center;
+   padding-top: 75px;
+}
+.titulo-cde{
+   justify-content: center;
+   display: flex;
+   padding-right: 170px;
+   text-align: center;
+}
+.recuadro{
+    height: 650px;
+    width: 470px;
+    background-color:rgb(10, 182, 145);
+    border-radius: 50px;
+    margin-top: 30px;
+    font-style: oblique;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-emphasis: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
