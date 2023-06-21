@@ -1,8 +1,10 @@
 h1{
+    justify-content: center;
+    display: flex;
     font-size: 91px;
     margin-left: 0%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-top: 75px;
+    padding-top: 60px;
 }
 h2{
     font-size: 60px;
@@ -12,7 +14,8 @@ h2{
     padding-bottom: 60px;
 }
 *{
-    margin: 0%;
+    margin: 0;
+    padding: 0;
 }
 .header{
     background-color: rgb(14, 97, 97);
@@ -53,19 +56,7 @@ h2{
     display: flex;
     justify-content: space-between;
 }
-img{
-    height: 120px;
-}
-.fotos_contacto{
-    padding: 50px;
-    height: 300px;
-}
-#Bienv{
-    padding: 0%;
-    width: 100%;
-    height: auto;
-}
-.body_inicio{
+body{
     margin: 0%;
     padding: 75px;
 }
@@ -102,3 +93,29 @@ p{
 .redes img {
     padding: 50px;
 }
+h1.redes{
+   justify-content: center;
+   padding-top: 75px;
+}
+.titulo-cde{
+   justify-content: center;
+   display: flex;
+   padding-right: 170px;
+   text-align: center;
+}
+.recuadro{
+    height: 650px;
+    width: 470px;
+    background-color:rgb(10, 182, 145);
+    border-radius: 50px;
+    margin-top: 30px;
+    font-style: oblique;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-emphasis: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
