@@ -35,15 +35,6 @@ h2{
     margin: 15px;
     line-height: 30px;
 }
-.fotitos-proa{
-    height: 350px;
-    margin-right: 10px;
-}
-.fotitos{
-    padding: 75px;
-    display: flex;
-    justify-content:center;
-}
 .cositas-de-la-barra{
     display: flex;
     margin-right: 40px;
@@ -53,8 +44,10 @@ h2{
     display: flex;
     justify-content: space-between;
 }
-img{
-    height: 120px;
+.nav-fotos-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .fotos_contacto{
     padding: 50px;
@@ -69,9 +62,7 @@ img{
     margin: 0%;
     padding: 75px;
 }
-img{
-    height: 120px;
-}
+
 .img_redes{
     height: 300px;
 }
@@ -101,4 +92,13 @@ p{
 }
 .redes img {
     padding: 50px;
+}
+#carouselExample{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+    padding-bottom: 30px;
 }
