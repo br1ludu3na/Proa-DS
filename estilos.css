@@ -1,108 +1,3 @@
-
-h1{
-    font-size: 91px;
-    margin-left: 0%;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-top: 75px;
-}
-h2{
-    font-size: 60px;
-    margin-left: 35%;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 110px;
-    padding-bottom: 60px;
-}
-*{
-    margin: 0%;
-}
-.header{
-    background-color: rgb(14, 97, 97);
-    position: fixed;
-    width: 100%;
-    height: 75px;
-    top: 0;
-    left: 0;
-}
-.menus_link{
-    color: #ffffff;
-    text-decoration: none;
-}
-.menus_link:hover{
-    background-color: rgb(0, 148, 116);
-    transition: 0.3s;
-}
-.menus{
-    font-size: 25px;
-    margin: 15px;
-    line-height: 30px;
-}
-.cositas-de-la-barra{
-    display: flex;
-    margin-right: 40px;
-    list-style: none;
-}
-.nav{
-    display: flex;
-    justify-content: space-between;
-}
-.nav-fotos-contacto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.fotos_contacto{
-    padding: 50px;
-    height: 300px;
-}
-#Bienv{
-    padding: 0%;
-    width: 100%;
-    height: auto;
-}
-.body_inicio{
-    margin: 0%;
-    padding: 75px;
-}
-
-.img_redes{
-    height: 300px;
-}
-h3{
-    float: right;
-}
-p{
-    float: right;
-}
-
-.redes{
-    display: flex;
-}
-.redes-links{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 10px;
-    gap: 10px;
-}
-
-.redes-links li a{
-    font-size: 20px;
-    text-decoration: none;
-}
-.redes img {
-    padding: 50px;
-}
-#carouselExample{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 50%;
-    margin-left: 25%;
-    padding-bottom: 30px;
-}
 h1{
     justify-content: center;
     display: flex;
@@ -165,7 +60,9 @@ body{
     margin: 0%;
     padding: 75px;
 }
-
+img{
+    height: 120px;
+}
 .img_redes{
     height: 300px;
 }
@@ -220,15 +117,47 @@ h1.redes{
     flex-direction: column;
     align-items: center;
 }
-.nav-fotos-contacto{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.contactos-navs{
+.tabla-plan{
     width: 100%;
-    display: flex;
-    justify-content: center;
+    border: 4px solid #000;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif   ;
 }
-#titulo-contacto{
-    font-size: 80px;}
+th, td {
+    width: 15%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+.especial{
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    width: 15%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+  }
+  
+  th {
+    background-color: #33daff;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+
+  }
+
+#tabla2{
+    margin-top: 10px;
+}
