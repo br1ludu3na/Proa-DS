@@ -63,9 +63,6 @@ body{
 img{
     height: 120px;
 }
-.img_redes{
-    height: 300px;
-}
 h3{
     float: right;
 }
@@ -73,29 +70,7 @@ p{
     float: right;
 }
 
-.redes{
-    display: flex;
-}
-.redes-links{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 10px;
-    gap: 10px;
-}
 
-.redes-links li a{
-    font-size: 20px;
-    text-decoration: none;
-}
-.redes img {
-    padding: 50px;
-}
-h1.redes{
-   justify-content: center;
-   padding-top: 75px;
 }
 .titulo-cde{
    justify-content: center;
