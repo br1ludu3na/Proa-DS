@@ -1,0 +1,58 @@
+/* fijo barra*/
+.header{
+    background-color: rgb(14, 97, 97);
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    top: 0;
+    left: 0;
+}
+.menus_link{
+    color: #ffffff;
+    text-decoration: none;
+}
+.menus_link:hover{
+    background-color: rgb(0, 148, 116);
+    transition: 0.3s;
+}
+.menus{
+    font-size: 25px;
+    margin: 15px;
+    line-height: 0px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  .cositas-de-la-barra{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    margin: 0%;
+    padding: 75px;
+}
+/*fin fijo barra*/
+.nav-inicio{
+    gap: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }                                             
+  .logos-inicio{                    
+    padding: 0px;
+    margin: 0px;
+    height: 450px;
+    padding-top: 30px;
+    justify-content: center;
+  }
+h1{
+    padding-top: 20px;
+    font-size: 60px;
+}

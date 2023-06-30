@@ -1,0 +1,357 @@
+/* fijo barra*/
+.header{
+    background-color: rgb(14, 97, 97);
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    top: 0;
+    left: 0;
+}
+.menus_link{
+    color: #ffffff;
+    text-decoration: none;
+}
+.menus_link:hover{
+    background-color: rgb(0, 148, 116);
+    transition: 0.3s;
+}
+.menus{
+    font-size: 25px;
+    margin: 15px;
+    line-height: 0px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  .cositas-de-la-barra{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    margin: 0%;
+    padding: 75px;
+}
+/*fin fijo barra*/
+
+h1{
+    font-size: 91px;
+    margin-left: 0%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    font-size: 60px;
+    margin-left: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 110px;
+    padding-bottom: 60px;
+}
+*{
+    margin: 0%;
+}
+.header{
+    background-color: rgb(14, 97, 97);
+    position: relative;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    left: 0;
+    display:block;
+    overflow: visible ;
+}
+.menus_link{
+    color: #ffffff;
+    text-decoration: none;
+}
+.menus_link:hover{
+    background-color: rgb(0, 148, 116);
+    transition: 0.3s;
+}
+.menus{
+    font-size: 25px;
+    margin: 15px;
+    line-height: 30px;
+}
+.cositas-de-la-barra{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-fotos-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.fotos_contacto{
+    padding: 0px;
+    margin: 0px;
+    height: 300px;
+    border-radius: 50px;
+    margin-top: 30px;
+}   
+
+.fotos_contacto:hover{
+    border-radius: 0%;
+    height: 350px;
+    transition: .2s;
+    transition-delay: 2ms;
+}
+.contactos-navs{
+    gap: 25px;
+}
+#Bienv{
+    padding: 0%;
+    padding-top: 40px;
+    width: 100%;
+    height: auto;
+}
+.body_inicio{
+    margin: 0%;
+    padding: 75px;
+}
+
+.img_redes{
+    height: 300px;
+}
+h3{
+    float: right;
+}
+p{
+    float: right;
+}
+
+.redes{
+    display: flex;
+}
+.redes-links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.redes-links li a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.redes img {
+    padding: 50px;
+}
+#carouselExample{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+    padding-bottom: 30px;
+}
+h1{
+    justify-content: center;
+    display: flex;
+    font-size: 91px;
+    margin-left: 0%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 60px;
+}
+h2{
+    font-size: 60px;
+    margin-left: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 110px;
+    padding-bottom: 60px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(14, 97, 97);
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    top: 0;
+    left: 0;
+}
+.menus_link{
+    color: #ffffff;
+    text-decoration: none;
+}
+.menus_link:hover{
+    background-color: rgb(0, 148, 116);
+    transition: 0.3s;
+}
+.menus{
+    font-size: 25px;
+    margin: 15px;
+    line-height: 30px;
+}
+.fotitos-proa{
+    height: 350px;
+    margin-right: 10px;
+}
+.fotitos{
+    padding: 75px;
+    display: flex;
+    justify-content:center;
+}
+.cositas-de-la-barra{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    margin: 0%;
+    padding: 75px;
+}
+
+.img_redes{
+    height: 300px;
+}
+h3{
+    float: right;
+}
+p{
+    float: right;
+}
+
+.redes{
+    display: flex;
+}
+.redes-links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.redes-links li a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.redes img {
+    padding: 50px;
+}
+h1.redes{
+   justify-content: center;
+   padding-top: 75px;
+}
+.titulo-cde{
+   justify-content: center;
+   display: flex;
+   padding-right: 170px;
+   text-align: center;
+}
+.recuadro{
+    height: 650px;
+    width: 470px;
+    background-color:rgb(10, 182, 145);
+    border-radius: 50px;
+    margin-top: 30px;
+    font-style: oblique;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-emphasis: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-fotos-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactos-navs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#titulo-contacto{
+    font-size: 80px;
+    padding-top: 0px;
+}
+.tabla-plan{
+    width: 100%;
+    border: 4px solid #26a2bd;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif   ;
+}
+th, td {
+    width: 15%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #26a2bd;
+    border-collapse: collapse;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    width: 15%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+  }
+  
+  th {
+    background-color: #26a2bd;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: white ;
+
+  }
+
+#tabla2{
+    margin-top: 40px;
+}
+
+.especial{
+    text-align: center;
+    background-color: #33daff!important;
+}
+
+#btn-video{
+    background-color: #00596d;
+    color: #ffffff;
+    border-radius: 3px;
+    border-color:#00596d;
+    padding: 5px;
+    height: 30px;
+    width: 90px;
+}
+.div-btn-video{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}

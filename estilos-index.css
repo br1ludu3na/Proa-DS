@@ -1,0 +1,59 @@
+/* fijo barra*/
+.header{
+    background-color: rgb(14, 97, 97);
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    top: 0;
+    left: 0;
+}
+.menus_link{
+    color: #ffffff;
+    text-decoration: none;
+}
+.menus_link:hover{
+    background-color: rgb(0, 148, 116);
+    transition: 0.3s;
+}
+.menus{
+    font-size: 25px;
+    margin: 15px;
+    line-height: 30px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  .cositas-de-la-barra{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    margin: 0%;
+    padding: 75px;
+}
+/*fin fijo barra*/
+.body_inicio{
+    margin: 0%;
+    padding: 75px;
+}
+#carouselExample{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+    padding-bottom: 30px;
+}
+#Bienv{
+    padding: 0%;
+    padding-top: 40px;
+    width: 100%;
+    height: auto;
+}
